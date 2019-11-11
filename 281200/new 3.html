@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+<html class="chrome chrome77" lang="en-US">
+<head>
+  <title>The Body Collection
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://www.blissspa.com/wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer="">
+  </script>
+
+  <link rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="font-awesome-css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="wpsl-styles-css" href="css/styles.min.css" type="text/css" media="all">
+  <link rel="stylesheet" id="sailthru-subscribe-widget-styles-css" href="css/widget.subscribe.css" type="text/css" media="all">
+  <link rel="stylesheet" id="icelander-stylesheet-global-css" href="css/icelander-styles.css" type="text/css" media="screen">
+  <style id="icelander-stylesheet-global-inline-css">
+    .intro-special { 
+      background-image: url('img/HP-banner-desktop.jpg');
+    }
+  </style>
+  <link rel="stylesheet" id="icelander-stylesheet-print-css" href="css/print.css" type="text/css" media="print">
+  <link rel="stylesheet" id="fl-builder-layout-156-css" href="css/156-layout.css" type="text/css" media="screen">
+  <link rel="stylesheet" id="fl-builder-layout-158-css" href="css/158-layout.css" type="text/css" media="screen">
+  <script src="https://www.blissspa.com/wp-content/cache/minify/c7035.js">
+  </script>
+  <link rel="icon" href="img/cropped-favicon-1-32x32.png" sizes="32x32">
+  <link rel="icon" href="img/cropped-favicon-1-192x192.png" sizes="192x192">
+  <link rel="apple-touch-icon-precomposed" href="img/cropped-favicon-1-180x180.png">
+  <meta name="msapplication-TileImage" content="img/cropped-favicon-1-270x270.png">
+  <style id="wp-custom-css">
+    .modal {
+      position: absolute;
+      z-index: 10000; /* 1 */
+      top: 0;
+      left: 0;
+      visibility: hidden;
+      width: 100%;
+      height: 100%;
+    }
+
+    .modal.is-visible {
+      visibility: visible;
+    }
+
+    .modal-overlay {
+      position: fixed;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: hsla(0, 0%, 0%, 0.5);
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s linear 0.3s, opacity 0.3s;
+    }
+
+    .modal.is-visible .modal-overlay {
+      opacity: 1;
+      visibility: visible;
+      transition-delay: 0s;
+    }
+
+    .modal-wrapper {
+      position: fixed;
+      z-index: 9999;
+      top: 6em;
+      left: 50%;
+      width: 50%;
+      transform: translate(-50%, 0);
+      background-color: #fff;
+      box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
+    }
+
+    .modal-transition {
+      transition: all 0.3s 0.12s;
+      opacity: 0;
+    }
+
+    .modal.is-visible .modal-transition {
+      opacity: 1;
+    }
+
+    .modal-header,
+    .modal-content {
+      padding: 1em;
+    }
+
+    .modal-header {
+      position: relative;
+      background-color: #fff;
+      box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.06);
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 1em;
+      color: #aaa;
+      background: none;
+      border: 0;
+    }
+
+    .modal-close:hover {
+      color: #777;
+    }
+
+    .modal-heading {
+      font-size: 1.125em;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .modal-content > *:first-child {
+      margin-top: 0;
+    }
+
+    .modal-content > *:last-child {
+      margin-bottom: 0;
+    }
+    @font-face {
+      font-family: 'FontAwesome';
+      src: url(fonts/fontawesome-webfont.eot);
+    }
+    @font-face {
+      font-family: CeraStencil;
+      src: url(fonts/CeraStencilPRO-Regular.ttf);
+      src: url('fonts/CeraStencilPRO-Regular.ttf') format('embedded-opentype'), 
+      url('fonts/CeraStencilPRO-Regular.otf') format('truetype');
+    }
+    @font-face {
+      font-family: CeraStencilBold;
+      src: url(fonts/CeraStencilPRO-Bold.ttf);
+      src: url('fonts/CeraStencilPRO-Bold.ttf') format('embedded-opentype'), 
+      url('fonts/CeraStencilPRO-Bold.otf') format('truetype');
+    }
+    .intro-special .wp-custom-header::before {
+      background-color: transparent !important;
+    }
+    .intro-title {
+      background: #e3f6fa;
+      color: #334587 !important;
+      font-size: 36px !important;
+      width: 100%;
+      text-align: left;
+      margin-top: 30% !important;
+    }
+    a {
+      color: #334587;
+    }
+    a:hover {
+      color: #7fd7eb;
+    }
+    img {
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -moz-crisp-edges;
+    }
+    .intro,
+    .intro-inner {
+      width: 100%;
+      float: left;
+    }
+    .intro-special {
+      position: relative;
+      padding: 19% 0 2% 0;
+    }
+    .spa-location-img {
+      float: left;
+    }
+    .wpsl-store-location div {
+      float: left;
+    }
+    .desc-wrap {
+      max-width: 60%;
+      padding-left: 10px;
+    }
+    #wpsl-stores {
+      height: 100% !important;
+    }
+    .wpsl-store-details.wpsl-store-listing:before {
+      display: none;
+      border-top: 0px !important;
+    }
+    .fl-rich-text a.uabb-button.uabb-creative-button {
+      box-shadow: 3px 3px 0 #f5ea77;
+    }
+    .wpsl-store-listing:hover {
+      background-color: #04abce !important;
+      color: #fbfbfb !important;
+    }
+    .book-btn,
+    .wpsl-store-listing,
+    #wpsl-search-btn {
+      line-height: 1rem;
+      transition: all .15s ease;
+      font-weight: 500;
+      text-align: center;
+      font-size: 14px;
+      background-color: #73d2e6 !important;
+      color: #334587 !important;
+      text-transform: uppercase;
+      border: none;
+      float: left;
+      box-shadow: 3px 3px 0 #f5ea77;
+      margin-right: 10px;
+      border-radius: 0;
+      outline: 0;
+      padding: 10px 20px;
+      height: auto;
+      min-width: 165px;
+      font-family: CeraStencilPRO-Medium;
+    }
+    #wpsl-search-btn,
+    #wpsl-search-wrap #wpsl-search-input,
+    .wpsl-dropdown {
+      border: 1px solid #3680b1;
+      border-radius: 3px;
+      background: #fff;
+    }
+    .wpsl-search {
+      background: #ffffff;
+    }
+    .footer-widgets .widget {
+      padding-bottom: 0px !important;
+      margin: 0 10px;
+    }
+    .Sailthru_Subscribe label {
+      display: none;
+    }
+    .Sailthru_Subscribe {
+      position: relative;
+      top: -15px;
+      right: 0;
+      box-sizing: border-box;
+      width: 100%;
+      background-color: #f5ea77;
+      padding: 28px 20px !important;
+      padding-bottom: 28px !important;
+      text-align: center;
+      -webkit-transform: translate(0, -24px);
+      transform: translate(0, -24px);
+    }
+    .Sailthru_Subscribe .widget-title {
+      color: #000;
+      font-family: CeraStencilBold !important;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .Sailthru_Subscribe input[type="submit"]:hover {
+      background: linear-gradient(to right, #8cd0e3 100%, #f08ccd 100%);
+      color: #000;
+    }
+    .Sailthru_Subscribe input[type="email"] {
+      color: #656464;
+      margin-bottom: 10px;
+      border: none;
+      background: #fff;
+    }
+    .main-navigation-container a {
+      font-weight: 600;
+    }
+    .page-title,
+    .uabb-button-text {
+      padding-left: 10px;
+      font-family: CeraStencilBold !important;
+      font-weight: 100;
+    }
+    .widget-title,
+    h1,
+    h2,
+    h3,
+    h4 {
+      font-family: CeraStencil !important;
+      font-weight: 400;
+    }
+    .post-406 .uabb-button-text {
+      font-size: 16px;
+    }
+    .uabb-button-text {
+      font-size: 22px;
+    }
+    .fl-rich-text a.uabb-button.uabb-creative-button {
+      background: #73d2e6;
+      padding: 0 15px 15px 15px;
+      color: #334587;
+    }
+    .fl-rich-text a.uabb-button.uabb-creative-button span {
+      font-size: 18px;
+    }
+    .site-footer-area {
+      margin-top: 10px;
+    }
+    footer {
+      font-size: 1em !important;
+    }
+    .spa-location-description strong {
+      font-family: CeraStencil !important;
+      font-size: 26px;
+      font-weight: 400;
+    }
+    #wpsl-gmap {
+      display: none;
+    }
+    .fl-rich-text h2.spa-services-title {
+      font-family: cerastencil;
+      font-weight: 400;
+      color: #593884;
+      font-size: 29px;
+    }
+    .spa-service-icon:after,
+    .view-spa-services-spa-services-solr .spa-service-min-price .item-list li:after {
+      background: #32bcd4;
+      content: "";
+      height: 24px;
+      left: 11px;
+      position: absolute;
+      top: 0px;
+      width: 1px;
+      -webkit-transform: rotate(39deg);
+      -moz-transform: rotate(39deg);
+      -ms-transform: rotate(39deg);
+      -o-transform: rotate(39deg);
+      -spec-transform: rotate(39deg);
+      transform: rotate(39deg);
+    }
+    #primary {
+      float: right;
+    }
+    #secondary {
+      float: left;
+    }
+    hr {
+      margin: 5px;
+      border-color: #f5ea77;
+    }
+    @media only screen and (min-width: 874px) and (max-width: 1194px) {
+      .main-navigation {
+        margin-left: -17px !important;
+      }
+    }
+    @media only screen and (max-width: 41.9375em) and (min-height: 28em) {
+      .main-navigation {
+        margin-top: 0;
+      }
+      button.menu-toggle::after {
+        background: transparent;
+      }
+      .custom-logo {
+        max-width: 165px;
+      }
+      .intro-widgets,
+      .footer-widgets,
+      .footer-secondary-widgets {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .has-navigation-mobile .main-navigation-container .menu > ul {
+        padding-top: 0px !important;
+      }
+      .desc-wrap {
+        max-width: 100% !important;
+      }
+      .book-btn,
+      .wpsl-store-details,
+      #wpsl-search-btn {
+        min-width: 50px;
+      }
+      .button:hover,
+      button:hover,
+      [type="button"]:hover,
+      [type="reset"]:hover,
+      [type="submit"]:hover,
+      .child-page .more-link:hover,
+      .site .fl-builder-content .fl-module .button:hover,
+      .site .fl-builder-content .fl-module button:hover,
+      .site .fl-builder-content .fl-module [type="button"]:hover,
+      .site .fl-builder-content .fl-module [type="reset"]:hover,
+      .site .fl-builder-content .fl-module [type="submit"]:hover,
+      .site .fl-builder-content .fl-module .child-page .more-link:hover,
+      .main-navigation-container .button > a:hover,
+      .menu-toggle:hover,
+      .wm-content-module .more-link a:hover,
+      .button:active,
+      button:active,
+      [type="button"]:active,
+      [type="reset"]:active,
+      [type="submit"]:active,
+      .child-page .more-link:active,
+      .site .fl-builder-content .fl-module .button:active,
+      .site .fl-builder-content .fl-module button:active,
+      .site .fl-builder-content .fl-module [type="button"]:active,
+      .site .fl-builder-content .fl-module [type="reset"]:active,
+      .site .fl-builder-content .fl-module [type="submit"]:active,
+      .site .fl-builder-content .fl-module .child-page .more-link:active,
+      .main-navigation-container .button > a:active,
+      .menu-toggle:active,
+      .wm-content-module .more-link a:active,
+      .button:focus,
+      button:focus,
+      [type="button"]:focus,
+      [type="reset"]:focus,
+      [type="submit"]:focus,
+      .child-page .more-link:focus,
+      .site .fl-builder-content .fl-module .button:focus,
+      .site .fl-builder-content .fl-module button:focus,
+      .site .fl-builder-content .fl-module [type="button"]:focus,
+      .site .fl-builder-content .fl-module [type="reset"]:focus,
+      .site .fl-builder-content .fl-module [type="submit"]:focus,
+      .site .fl-builder-content .fl-module .child-page .more-link:focus,
+      .main-navigation-container .button > a:focus,
+      .menu-toggle:focus,
+      .wm-content-module .more-link a:focus,
+      mark,
+      #page mark,
+      .highlight,
+      #page .highlight,
+      .pagination .current,
+      .bypostauthor > .comment-body .comment-author::before,
+      .widget_calendar tbody a,
+      .widget .tagcloud a:hover,
+      .widget .tagcloud a:focus,
+      .widget .tagcloud a:active,
+      .set-colors-accent,
+      .set-colors-accent > .fl-row-content-wrap,
+      .set-colors-accent > .fl-col-content,
+      .hover-color-accent.fl-col:hover .fl-col-content,
+      form [type="submit"],
+      .site .fl-builder-content .fl-module form [type="submit"],
+      .sidebar .widget .current_page_item > a,
+      .fl-widget .widget .current_page_item > a,
+      .sidebar .widget .current-menu-item > a,
+      .fl-widget .widget .current-menu-item > a,
+      .site #infinite-handle span,
+      .wm-accordion .is-active .wm-item-title,
+      .wm-accordion .wm-item-title:hover,
+      .wm-tab-links .active a,
+      .wm-tab-links .is-active a,
+      .wm-tab-links a:hover,
+      .wm-tour-nav,
+      .wm-filter a:hover,
+      .wm-filter .active a,
+      .wm-filter .is-active a,
+      .fl-builder-content .wm-filter .active a,
+      .fl-builder-content .wm-filter .is-active a {
+        background-color: transparent !important;
+      }
+      .menu-toggle {
+        right: 0 !important;
+        position: absolute;
+        bottom: inherit;
+        min-width: 140px;
+        top: 0 !important;
+        height: 20px;
+        box-shadow: none;
+        background-color: transparent;
+      }
+      .search-form {
+        display: none !important;
+      }
+      .intro-title {
+        margin-top: 77% !important;
+        font-size: 20px !important;
+      }
+      .fl-widget .widget .current-menu-item > a {
+        color: #7fd7eb !important;
+      }
+      .site-header-content {
+        margin-top: 10px;
+      }
+    }
+    .widget-title,
+    .widget-title-style .widgettitle {
+      margin-bottom: 10px !important;
+    }
+    @media only screen and (max-width: 41.9375em) {
+      .fl-node-575713533837c {
+        margin-right: 0px !important;
+      }
+      .fl-node-57571353382cf {
+        margin-left: 0px !important;
+      }
+      .footer-widgets-inner {
+        overflow: visible;
+      }
+    }
+    #back-top {
+      bottom: 15px;
+      display: none;
+      position: fixed;
+      right: 15px;
+      z-index: 2;
+    }
+    #back-top a {
+      background: #32bcd4;
+      color: #fff;
+      display: block;
+      line-height: 1;
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      border: 1px solid #fff;
+    }
+    #back-top a span {
+      display: none;
+    }
+    .spa-services-min .text-blue {
+      font-weight: bold;
+      margin-top: 10px;
+      font-family: cerastencil;
+    }
+    .footer-widgets .widget.Sailthru_Subscribe {
+      padding-bottom: 30px !important;
+      top: 35px;
+    }
+    .footer-area-site-info {
+      padding: 0px !important;
+    }
+    .sailthru_email {
+      color: #999;
+      border: none;
+    }
+    .footer-social-links a {
+      text-decoration: none;
+    }
+    .customerservice-categories-links a {
+      color: #000000;
+    }
+    .customerservice-categories-links a:hover {
+      color: #73d2e6;
+    }
+    .footer-area-site-info::before,
+    .entry-author::before {
+      content: none;
+    }
+    .spa-service-icon {
+      display: visible !important;
+    }
+    .page-id-410 .spa-service-min-price .text-blue span,
+    .page-id-1274 .spa-service-min-price .text-blue span,
+    .page-id-406 .spa-service-min-price .text-blue span,
+    .page-id-419 .spa-service-min-price .text-blue span,
+    .page-id-412 .spa-service-min-price .text-blue span,
+    .page-id-408 .spa-service-min-price .text-blue span {
+      display: none !important;
+    }
+    .uabb-button .uabb-creative-button .uabb-creative-flat-btn .uabb-none-btn {
+      z-index: 9000;
+    }
+    .menu-primary a {
+      font-family: CeraStencil !important;
+    }
+    .fl-node-575713533837c {
+      margin-right: -5px;
+    }
+    .fl-node-57571353382cf {
+      margin-left: -5px;
+    }
+    .widget_nav_menu {
+      display: block;
+    }
+    .widget_nav_menu ul {
+      list-style: none;
+    }
+    .widget_nav_menu select {
+      display: none;
+    }
+    .show-mobile {
+      display: none;
+    }
+    @media (max-width: 960px) {
+      .widget_nav_menu ul {
+        display: none;
+      }
+      h1 {
+        margin-top: 86px;
+      }
+      .show-mobile {
+        display: block !important;
+      }
+      #footer-widgets .widget_nav_menu ul {
+        display: block !important;
+      }
+      .widget_nav_menu select {
+        display: inline-block;
+      }
+      .services-legend,
+      #back-top {
+        display: none;
+      }
+    }
+    footer .menu a {
+      text-transform: capitalize;
+    }
+    @media (min-width: 695px) and (max-width: 880px) {
+      .home .fl-col {
+        width: 33% !important;
+        max-width: 400px !important;
+      }
+    }
+    .fl-node-5b718f041fd14,
+    .fl-node-5b71903672bf9,
+    .fl-node-5b719025e2053,
+    .fl-node-5b7d6cd33d763,
+    .fl-node-5b7d6ce5a80f2,
+    .fl-node-5b7d6af0e8822,
+    .fl-node-5b7d6cdf25009,
+    .fl-node-5b7d6ced4c371,
+    .fl-node-5b7d6cca6f0d2 {
+      max-width: 460px;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+    }
+    a:focus {
+      outline: none !important;
+    }
+    .cf {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      margin: 0px 0px 0px -2px;
+      padding: 0px;
+      border: 1px solid #D51599;
+      font-style: inherit;
+      font-variant: inherit;
+      font-weight: inherit;
+      font-stretch: inherit;
+      font-size: 12px;
+      line-height: 25px;
+      font-family: CeraStencilPRO-Medium;
+      vertical-align: middle;
+      color: #D51599;
+      display: inline-block;
+      height: 25px;
+      text-transform: uppercase;
+      text-align: center;
+      width: 25px;
+      position: relative;
+      border-radius: 50%;
+      background-clip: padding-box;
+      transform: scale(0.8, 0.8);
+    }
+    .bf {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+      margin: 0px 0px 0px -2px;
+      padding: 0px;
+      border: 1px solid #7a5ac3;
+      font-style: inherit;
+      font-variant: inherit;
+      font-weight: inherit;
+      font-stretch: inherit;
+      font-size: 12px;
+      line-height: 25px;
+      font-family: CeraStencilPRO-Medium;
+      vertical-align: middle;
+      color: #7a5ac3;
+      display: inline-block;
+      height: 25px;
+      text-transform: uppercase;
+      text-align: center;
+      width: 25px;
+      position: relative;
+      border-radius: 50%;
+      background-clip: padding-box;
+      transform: scale(0.8, 0.8);
+    }
+    .intro {
+      display: none;
+    }
+    body.home .intro-special .intro {
+      display: block !important;
+    }
+    .wpsl-result-list ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .wpsl-store-below .wpsl-result-list {
+      width: 100%;
+      margin: 12px 0 0;
+    }
+    .wpsl-wrap .wpsl-result-list ul li {
+      list-style: none!important;
+    }
+    .wpsl-stores .wpsl-store-thumb,
+    #wpsl-stores .wpsl-store-thumb {
+      float: right;
+      border-radius: 3px;
+      margin: 7px 0 0 10px;
+      padding: 0;
+      border: none;
+      height: 202px !important;
+      width: 400px !important;
+    }
+    .wpsl-wrap .wpsl-result-list li {
+      padding: 10px;
+      border-bottom: 1px dotted #ccc;
+      margin-left: 0;
+      overflow: hidden;
+      list-style: none!important;
+      text-indent: 0;
+    }
+    .wpsl-result-list .wpsl-contact-details span {
+      display: block!important;
+    }
+    .wpsl-result-list li {
+      padding: 10px 10px 10px 0;
+      padding: 10px;
+      border-bottom: 1px dotted #ccc;
+      margin-left: 0;
+      overflow: hidden;
+      list-style: none!important;
+      text-indent: 0;
+    }
+    .wpsl-store-location {
+      margin-top: 5px;
+    }
+    .wpsl-store-below .wpsl-result-list p {
+      padding-left: 0;
+    }
+    #wpsl-wrap {
+      overflow: visible !important;
+    }
+    .intro-special .intro {
+      max-width: 630px !important;
+      padding-left: 10px;
+    }
+    .spa-services-title {
+      text-transform: capitalize;
+    }
+    /* NAV Colors Remove Select Lines */
+    .main-navigation-container a:hover,
+    .main-navigation-container a:active,
+    .main-navigation-container a:focus {
+      border-color: none !important;
+      color: #434242 !important;
+    }
+    .main-navigation-container .menu .current-menu-item > a,
+    .main-navigation-container .menu .current-menu-item > a:hover {
+      color: #434242 !important;
+    }
+    @media only screen and (min-width: 55em) {
+      .main-navigation-container .menu > ul > li > a {
+        border-top-width: 0 !important;
+      }
+    }
+    .site-header-content {
+      padding-top: 1em !important;
+      padding-bottom: 1em !important;
+    }
+    .fl-widget .widget_nav_menu li a {
+      text-transform: capitalize;
+      font-size: 15px;
+      text-align: center;
+    }
+    footer .widget-title {
+      font-family: CeraStencilBold !important;
+    }
+    footer .widget ul li {
+      border: none;
+    }
+    .wpsl-store-listing {
+      font-family: CeraStencilBold !important;
+      font-weight: 100;
+    }
+    a.pink {
+      color: #d51599;
+    }
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+    .post-module {
+      position: relative;
+      z-index: 1;
+      display: block;
+      background: #FFFFFF;
+      min-width: 270px;
+      height: 470px;
+      -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+      -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+      -webkit-transition: all 0.3s linear 0s;
+      -moz-transition: all 0.3s linear 0s;
+      -ms-transition: all 0.3s linear 0s;
+      -o-transition: all 0.3s linear 0s;
+      transition: all 0.3s linear 0s;
+    }
+    .post-module:hover,
+    .hover {
+      -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
+    }
+    .post-module:hover .thumbnail img,
+    .hover .thumbnail img {
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      transform: scale(1.1);
+      opacity: 0.6;
+    }
+    .post-module .thumbnail {
+      background: #000000;
+      height: 400px;
+      overflow: hidden;
+    }
+    .post-module .thumbnail .date {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 1;
+      background: #e74c3c;
+      width: 55px;
+      height: 55px;
+      padding: 12.5px 0;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      color: #FFFFFF;
+      font-weight: 700;
+      text-align: center;
+      -webkti-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    .post-module .thumbnail .date .day {
+      font-size: 18px;
+      line-height: 1;
+    }
+    .post-module .thumbnail .date .month {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    .post-module .thumbnail img {
+      display: block;
+      width: 120%;
+      -webkit-transition: all 0.3s linear 0s;
+      -moz-transition: all 0.3s linear 0s;
+      -ms-transition: all 0.3s linear 0s;
+      -o-transition: all 0.3s linear 0s;
+      transition: all 0.3s linear 0s;
+    }
+    .post-module .post-content {
+      position: absolute;
+      bottom: 0;
+      background: #FFFFFF;
+      width: 100%;
+      padding: 30px;
+      -webkti-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+      -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+      -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+      -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+      transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+    }
+    .post-module .post-content .category {
+      position: absolute;
+      top: -34px;
+      left: 0;
+      background: #e74c3c;
+      padding: 10px 15px;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .post-module .post-content .title {
+      margin: 0;
+      padding: 0 0 10px;
+      color: #333333;
+      font-size: 26px;
+      font-weight: 700;
+    }
+    .post-module .post-content .sub_title {
+      margin: 0;
+      padding: 0 0 20px;
+      color: #e74c3c;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .post-module .post-content .description {
+      display: none;
+      color: #666666;
+      font-size: 14px;
+      line-height: 1.8em;
+    }
+    .post-module .post-content .post-meta {
+      margin: 30px 0 0;
+      color: #999999;
+    }
+    .post-module .post-content .post-meta .timestamp {
+      margin: 0 16px 0 0;
+    }
+    .post-module .post-content .post-meta a {
+      color: #999999;
+      text-decoration: none;
+    }
+    .hover .post-content .description {
+      display: block !important;
+      height: auto !important;
+      opacity: 1 !important;
+    }
+    .container {
+      max-width: 90%;
+      min-width: 320px;
+      margin: 0 auto;
+      padding: 40px 0px;
+
+    }
+    .container:before,
+    .container:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+    .container .column {
+      width: 33.3333333%;
+      padding: 0 25px;
+      -webkti-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left;
+    }
+    @media only screen and (max-width: 41.9375em) {
+      .container .column {
+        width: 100%;
+        padding: 0 25px;
+        -webkti-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        float: left;
+      }
+    }
+
+  </style>
+  <script>
+    jQuery(function($) { 
+      $(function() {
+    // DOM ready
+    var hidedive=$('div[style*="clear:both;width:100%;text-align:center; font-size:11px;"]')
+    hidedive.css("display","none");
+        // Create the dropdown base
+        $("<select />").appendTo("div.widget_nav_menu");
+        // Create default option "Go to..."
+        $("<option />", {
+          "selected": "selected",
+          "value" : "",
+          "text" : "Click Here..."
+        }).appendTo("div.widget_nav_menu select");
+        // Populate dropdown with menu items
+        $("div.widget_nav_menu a").each(function() {
+          var el = $(this);
+          $("<option />", {
+            "value" : el.attr("href"),
+            "text" : el.text()
+          }).appendTo("div.widget_nav_menu select");
+        });
+        // To make dropdown actually work
+        // To make more unobtrusive: https://css-tricks.com/4064-unobtrusive-page-changer/
+        $("div.widget_nav_menu select").change(function() {
+          window.location = $(this).find("option:selected").val();
+        });
+      });
+    });
+  </script>
+  <style id="fit-vids-style">
+    .fluid-width-video-wrapper{
+      width:100%;
+      position:relative;
+      padding:0;
+      }.fluid-width-video-wrapper iframe,
+      .fluid-width-video-wrapper object,
+      .fluid-width-video-wrapper embed {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+      }
+    </style>
+  </head>
+  <body class="fl-builder footer-layout-boxed group-blog has-intro has-navigation-mobile has-sticky-header header-layout-fullwidth home is-singular no-widgets-sidebar page page-id-156 page-layout-outdented page-template-default site-layout-fullwidth site-title-hidden wp-custom-logo scrolled-not">
+
+    <a class="skip-link screen-reader-text" href="#site-navigation">Skip to main navigation
+    </a>
+    <a class="skip-link screen-reader-text" href="#content">Skip to main content
+    </a>
+    <a class="skip-link screen-reader-text" href="#colophon">Skip to footer
+    </a>
+    <div id="page" class="site">
+      <div class="scroll-watch-placeholder masthead-placeholder" style="height: 163px;">
+        <header id="masthead" class="site-header" role="banner" style="width: 375px;">
+          <div class="site-header-content">
+            <div class="site-header-inner">
+              <div class="site-branding">
+                <a href="index.html" class="custom-logo-link" rel="home">
+                  <img width="700" height="168" src="img/logo2.png" class="custom-logo" alt="Bliss Spa Logo" srcset="img/logo2.png 700w, img/logo2-300x72.png 300w, img/logo2-50x12.png 50w" sizes="(max-width: 700px) 100vw, 700px">
+                </a>
+                <div class="site-branding-text">
+                  <h1 class="site-title site-title-text">Bliss Spa
+                  </h1>
+                  <p class="site-description">Achieve a higher state of happy.
+                  </p>
+                </div>
+              </div>
+              <nav id="site-navigation" class="main-navigation" aria-label="Primary Menu">
+                <button role="button" id="menu-toggle" class="menu-toggle" aria-controls="menu-primary" aria-expanded="false">
+                 <i class="fa fa-arrow-left" style="font-size: 18px;"></i> Menu
+               </button>
+               <div id="site-navigation-container" class="main-navigation-container">
+                <div class="mobile-search-form">
+                  <form role="search" method="get" class="search-form" action="/">
+                    <label>
+                      <span class="screen-reader-text">Search for:
+                      </span>
+                      <input type="search" class="search-field" placeholder="Search …" value="" name="s">
+                    </label>
+                    <input type="submit" class="search-submit" value="Search">
+                  </form>
+                </div>
+                <div class="menu">
+                  <ul id="menu-primary" class="menu-primary" role="menubar" aria-expanded="false">
+                    <li id="menu-item-357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-357">
+                      <a class="modal-toggle" href="" target="_blank" rel="noopener noreferrer">BOOKING
+                      </a>
+                    </li>
+                    <li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169">
+                      <a href="services.html">SERVICES
+                      </a>
+                    </li>
+                    <li id="menu-item-433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-433">
+                      <a href="offers.html">OFFERS &amp; EVENTS
+                      </a>
+                    </li>
+                    <li id="menu-item-430" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-430">
+                      <a  rel="noopener noreferrer" href="products.html">PRODUCTS &amp; E-GIFT CARDS
+                      </a>
+                    </li>
+                    <li class="menu-toggle-skip-link-container">
+                      <a href="#menu-toggle" class="menu-toggle-skip-link">Skip to menu toggle button
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="modal">
+        <div class="modal-overlay modal-toggle"></div>
+        <div class="modal-wrapper modal-transition" style="min-height: 200px;position: fixed;">
+          <div class="modal-header">
+            <button class="modal-close modal-toggle"><svg class="icon-close icon" viewBox="0 0 32 32"><use xlink:href="#icon-close"></use></svg></button>
+            <h2 class="modal-heading">
+              <button class="modal-toggle">Закрыть</button>
+            </h2>
+          </div>
+          <div class="modal-body">
+            <div class="tab">
+              <button style="width: 50%;" class="tablinks" onclick="openCity(event, 'London')">Отправить письмо</button>
+              <a href="https://wa.me/996554806200">
+                <button style="width: 50%;" class="tablinks" onclick="openCity(event, 'Paris')">
+                  Написать WhatsApp
+                </button>
+              </a>
+            </div>
+
+            <!-- Tab content -->
+            <div id="London" class="tabcontent">
+              <div class="modal-content">
+                <form action="send.php" method="post">
+                  <div class="left" style="width: 45%;float: left;">    
+                    <label for="">
+                      Ваше имя
+                    </label>
+                    <input type="text" name="first_name" required placeholder="Александр(а)"><br><br>
+                    <label for="">
+                      Email: 
+                    </label>
+                    <input type="email" name="email" required ><br>
+                  </div>
+                  <div class="right" style="width: 45%;float: left;">
+                    <label for="">
+                      Сообщение:
+                    </label>
+                    <br><textarea name="message" cols="30" placeholder="..." style="height: 137px"></textarea><br>
+                  </div>
+                  <input type="submit" name="submit" value="Отправить">
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+
+                  // Get all elements with class="tabcontent" and hide them
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+
+                  // Get all elements with class="tablinks" and remove the class "active"
+                  tablinks = document.getElementsByClassName("tablinks");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                  }
+
+                  // Show the current tab, and add an "active" class to the button that opened the tab
+                  document.getElementById(cityName).style.display = "block";
+                  evt.currentTarget.className += " active";
+                }
+              </script>
+            </div>
+			<div
+id=content class=site-content><div
+class=site-content-inner><div
+id=primary class=content-area><main
+id=main class=site-main role=main><article
+id=post-158 class="post-158 page type-page status-publish hentry entry"><div
+class=entry-content><div
+class="fl-builder-content fl-builder-content-158 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id=158><div
+class="fl-row fl-row-fixed-width fl-row-bg-none fl-node-5bd0a7db12258 fl-row-layout-fixed-fixed" data-node=5bd0a7db12258><div
+class=fl-row-content-wrap><div
+class="fl-row-content fl-row-fixed-width fl-node-content"><div
+class="fl-col-group fl-node-5bd0a7db1f5e6" data-node=5bd0a7db1f5e6><div
+class="fl-col fl-node-5bd0a7db1fde7" data-node=5bd0a7db1fde7><div
+class="fl-col-content fl-node-content"><div
+class="fl-module fl-module-rich-text fl-node-5bd0a7db11227" data-node=5bd0a7db11227><div
+class="fl-module-content fl-node-content"><div
+class=fl-rich-text><h1 style="text-align: center;">The Body Collection</h1><div>
+
+
+</div></div></div></div></div></div></div></div></div></div></div>
+            <div id="content" class="site-content">
+              <div class="site-content-inner">
+                <div id="primary" class="content-area">
+                  <main id="main" class="site-main" role="main">
+                    <article id="post-158" class="post-158 page type-page status-publish hentry entry">
+                      <div class="entry-content">
+
+                        <div class="container">
+
+                          <!-- Normal Demo-->
+                          <div class="column">
+                            <!-- Post-->
+                            <div class="post-module">
+                              <!-- Thumbnail-->
+                              <div class="thumbnail">
+                                <img src="https://evehealth.ru/wp-content/uploads/2018/01/29404821425_c6b823bc43_b-1.jpg"/>
+                              </div>
+                              <!-- Post Content-->
+                              <div class="post-content">
+                             
+                                <h1 class="title">Edem of Carrot</h1>
+                                <h2 class="sub_title"><b>Морковный рай - секрет Нефертити. </b><p>На основе натуральных ингридиентов и эфирных масел.</p></h2>
+                                <p class="description">....</p>
+                                <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                              </div>
+                            </div>
+                          </div>  
+                          <div class="column">
+                            <!-- Post-->
+                            <div class="post-module">
+                              <!-- Thumbnail-->
+                              <div class="thumbnail">
+                                <img src="https://avatars.mds.yandex.net/get-altay/1637232/2a0000016ad47ee373df01bd0f87f38f8b8d/XXL"/>
+                              </div>
+                              <!-- Post Content-->
+                              <div class="post-content">
+                                
+                                <h1 class="title">Ginger Power</h1>
+                                <h2 class="sub_title"><b>Имбирное обертывание.</b> Обертывание на основе имбиря и эфирных масел и продолжение массажем Шиа-Цу.</h2>
+                                <p class="description">....</p>
+                                <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                              </div>
+                            </div>
+                          </div>
+						  <div class="column">
+                            <!-- Post-->
+                            <div class="post-module">
+                              <!-- Thumbnail-->
+                              <div class="thumbnail">
+                                <img src="https://spamarinkas.com/wp-content/uploads/2019/05/kalkan-sea-scrub-1.jpg"/>
+                              </div>
+                              <!-- Post Content-->
+                              <div class="post-content">
+                                
+                                <h1 class="title">Body Scrub</h1>
+                                <h2 class="sub_title">Все виды скрабов<p> </p> <p> </p></h2>
+                                <p class="description">....</p>
+                                <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+						<div class="container">
+
+                          <!-- Normal Demo-->
+                          <div class="column">
+                            <!-- Post-->
+                            <div class="post-module">
+                              <!-- Thumbnail-->
+                              <div class="thumbnail">
+                                <img src="https://yandex.ru/images/_crpd/GktWA6762/80880bqjeb-/nc1XtIoV199s1OlwoE_HdwtBYpp8y8IwctXizuEp5n6TdsF8e_dBtt284nNkn-TnHMRjco_cICtTW9V_vdu1r5mPlzFexBbMOIR4NXVOV7dJ1XWPaY"/>
+                              </div>
+                              <!-- Post Content-->
+                              <div class="post-content">
+                             
+                                <h1 class="title">The Deep Sea Detox</h1>
+                                <h2 class="sub_title"><b>Глубокий детокс на основе морских продуктов.</b><p>Устраняет цулюлит</p></h2>
+                                <p class="description">....</p>
+                                <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                              </div>
+                            </div>
+                          </div>
+						  <!-- Normal Demo-->
+                          <div class="column">
+                            <!-- Post-->
+                            <div class="post-module">
+                              <!-- Thumbnail-->
+                              <div class="thumbnail">
+                                <img src="http://tulaskidka.ru/sites/default/files/upload/savamass-_012.jpg"/>
+                              </div>
+                              <!-- Post Content-->
+                              <div class="post-content">
+                             
+                                <h1 class="title">Slim Caviar</h1>
+                                <h2 class="sub_title">Аппаратное похудение Caviar+обертывание.<p> </p></h2>
+                                <p class="description">....</p>
+                                <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                              </div>
+                            </div>
+                          </div>
+						  <!-- Normal Demo-->
+                          <div class="column">
+                            <!-- Post-->
+                            <div class="post-module">
+                              <!-- Thumbnail-->
+                              <div class="thumbnail">
+                                <img src="https://avatars.mds.yandex.net/get-pdb/70729/2978fd3a-1436-4ad5-87f1-8c81ecd76317/s1200"/>
+                              </div>
+                              <!-- Post Content-->
+                              <div class="post-content">
+                             
+                                <h1 class="title">Fat Girls Slim</h1>
+                                <h2 class="sub_title">	Обертывание на зону бедер с сочетанием detox капсулами и масками.</h2>
+                                <p class="description">....</p>
+                                <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+					  <div class="container">
+
+                          <!-- Normal Demo-->
+                          <div class="column">
+                            <!-- Post-->
+                            <div class="post-module">
+                              <!-- Thumbnail-->
+                              <div class="thumbnail">
+                                <img src="https://avatars.mds.yandex.net/get-pdb/1870806/f46df736-ed76-41f8-abf4-7b862bfa9e88/s1200"
+                              <!-- Post Content-->
+                              <div class="post-content">
+                             
+                                <h1 class="title">Lovehandler</h1>
+                                <h2 class="sub_title">-Стимулирует кровообращение<p>устранение целлюлита</p></h2>
+                                <p class="description">....</p>
+                                <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fa fa-comments"></i><a href="#"> 39 comments</a></span></div>
+                              </div>
+                            </div>
+                          </div>
+						  
+                          
+                      </div>
+                      </div>
+                      <a class="skip-link screen-reader-text focus-position-static" href="#site-navigation">Skip back to main navigation</a>
+                    </article>
+                  </main>
+                </div>
+              </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script>
+              $('.modal-toggle').on('click', function(e) {
+                e.preventDefault();
+                $('.modal').toggleClass('is-visible');
+              });
+            </script>
+              <footer id="colophon" class="site-footer" role="contentinfo">
+              <div class="site-footer-area footer-area-footer-widgets">
+                <div class="footer-widgets-inner site-footer-area-inner">
+                  <aside id="footer-widgets" class="widget-area footer-widgets" role="complementary" aria-label="Footer widgets">
+                    <section id="nav_menu-2" class="widget widget_nav_menu">
+                      <h2 class="widget-title">Contact us:
+                      </h2>
+                      <div class="menu-customer-services-container">
+                        <ul id="menu-customer-services" class="menu">
+                          <li id="menu-item-347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-347">
+                           <a href="tel:+9960777700934"> +996 0777 700 934</a>
+							
+                           
+						
+                          </li>
+                          
+                        </ul>
+                      </div>
+                    </section>
+                    <section id="nav_menu-3" class="widget widget_nav_menu">
+                      <h2 class="widget-title">WhatsApp:
+                      </h2>
+                      <div class="menu-company-container">
+                        <ul id="menu-company" class="menu">
+                          <li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349">
+                            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/+99466904714">+994 6690 4714</a>
+                         
+						   
+                          </li>
+                          
+                        </ul>
+                      </div>
+                    </section>
+                    <section id="nav_menu-4" class="widget widget_nav_menu">
+                      <h2 class="widget-title">E-mail:
+                      </h2>
+                      <div class="menu-find-bliss-container">
+                        <ul id="menu-find-bliss" class="menu">
+                          <li id="menu-item-352" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-352">
+                            <a target="_blank" rel="noopener noreferrer" href="mailto:bliss.island13@gmail.com">bliss.island13@gmail.com
+                            
+                          </li>
+               
+                        </ul>
+                      </div>
+                    </section>
+                    <section id="custom_html-4" class="widget_text widget widget_custom_html">
+                      <h2 class="widget-title">THE FUN STUFF
+                      </h2>
+                      <div class="textwidget custom-html-widget">
+                        <div class="footer-social-links">
+                          <a alt="Bliss Spa Instagram" href="https://www.instagram.com/bliss_island13" target="_blank" rel="noopener noreferrer">
+                            <img alt="Bliss Spa Instagram" src="https://proxy.leonardo.osnova.io/ico/instagram-press.com" style="max-width: 45px;">
+                          </a>
+                          <a alt="Bliss Spa YoutTube" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="Bliss Spa YoutTube" src="https://lh3.googleusercontent.com/KhY28aTw30hEJXooMF-_rQqwMIIqofFvasbZJtEpvlgHQwLXKP3KW0OoCTtoYpDNn_U=w128" style="max-width: 45px;">
+                          </a>
+                          <a alt="Bliss Spa Twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="Bliss Spa Twitter" src="https://images-eu.ssl-images-amazon.com/images/I/31KluT5nBkL.png" style="max-width: 45px;">
+                          </a><br><br>
+                          <a alt="Bliss Spa facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="Bliss Spa facebook" src="img/iphone-facebook-app-icon-18.png" style="max-width: 45px;">
+                          </a>
+                          <a alt="Bliss Spa TripAdvisor" href="https://TripAdvisor.com" target="_blank" rel="noopener noreferrer">
+                            <img alt="Bliss Spa TripAdvisor" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/22/TripAdvisor_logo.svg/1200px-TripAdvisor_logo.svg.png" style="max-width: 45px;">
+                          </a>
+                        </div>
+                      </div>
+                    </section>
+                  </aside>
+                </div>
+              </div>
+              <div class="site-footer-area footer-area-site-info">
+                <div class="site-footer-area-inner site-info-inner">
+                  <div class="mapouter">
+                    <div class="gmap_canvas">
+                      <iframe width="400" height="400" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1461.8468279566725!2d74.61673287529221!3d42.87930969237899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7bf992fea43%3A0x520644270c25b91f!2sVictory%20Business%20Center!5e0!3m2!1sru!2skg!4v1573150273392!5m2!1sru!2skg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                      </iframe>
+                      <a href="https://usave.co.uk">usave</a>
+                    </div>
+                    <style>.mapouter{position:relative;text-align:right;height:200px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:100%;}
+                  </style>
+                </div>
+                <div class="site-info" style="color: #fff;text-align: center;width: 100%">
+                  © Bliss Island 2019
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+
+        <div style="clear: both; width: 100%; text-align: center; font-size: 11px; display: none;">
+          <a target="_blank" title="WP Filter Posts" href="#">WP Filter Posts
+          </a> Powered By :
+          <a target="_blank" title="PHP Scripts &amp; Wordpress Plugins" href="http://www.xyzscripts.com">XYZScripts.com
+          </a>
+        </div>
+        <script>var $icelanderBreakpoints = {"s":"448","m":"672","l":"880","xl":"1280","xxl":"1600","xxxl":"1920","xxxxl":"2560"};
+      </script>
+      <div id="back-top" style="display: block;">
+        <a href="#" title="back to top">
+          <i class="fa fa-arrow-circle-up">
+          </i>
+          <span class="icon-label">
+            back to top
+          </span>
+        </a>
+      </div>
+      <script>document.getElementsByName('email')[0].setAttribute("placeholder", "Enter your email");
+    </script>
+    <script defer="" src="https://www.blissspa.com/wp-content/cache/autoptimize/js/autoptimize_d4484e30e1b8de8eba3ea4c0daed49be.js">
+    </script>
+  </body>
+  </html>
