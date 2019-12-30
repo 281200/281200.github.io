@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+
+	font-size: 16px;
+	line-height: 1.6;
+	color: #333;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.intro {
+	width: 100%;
+	height: 100vh;
+
+	background: url("../img/intro.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.zagolovok {
+	height: 100px;
+	text-align: center;
+	line-height: 80px;	
+
+}
+
+
+#logo {
+	float: right;
+}
+
+
+.h_i {
+	float: fixed;
+}
+
+.nav {
+	font-size: 16px;
+	text-transform: uppercase;
+	position: sticky;
+}
+
+.nav_link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px; 
+	text-decoration: none;
+	color: #fff;
+	transition: .2s linear;
+}
+
+.nav_link:hover {
+	color: #fce38a;
+}
+
+.section {
+	padding: 80px 0;
+}
+
+.s_h {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+
+.s_s:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin: 40px auto 40px;
+
+	background-color: #f38181;
+}
+
+.s_t:after {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin: 40px auto 40px;
+
+	background-color: #f38181;
+}
+
+.tur {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tur_i {
+	width: 380px;
+	height: 500px;
+	background: #f3f3f3;
+}
+
+.tur_img {
+	display: inline-block;
+	overflow: hidden;
+	
+}
+
+.tur_img img {
+	display: block;
+	width: 380px;
+	transition: .3s linear;
+}
+
+.tur_i:hover .tur_img img{
+	transform: scale(1.1);
+}
+
+.title {
+	font-size: 24px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.subtitle {
+	width: 95%;
+	text-align: center;
+}
